@@ -9,8 +9,6 @@ The solution integrates:
 - **Android Apps (Kodular)** for transmitter and receiver  
 - **Python Server** as a central controller  
 
-📄 [View Full Project Report](AutomatedTrafficSignal_Report.pdf)
-
 ---
 
 ## 🛠️ System Overview
