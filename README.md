@@ -8,7 +8,7 @@ This repository contains my academic and personal projects.
 - Smart traffic signal system using **Arduino, Python, and Android apps**  
 - Prioritizes emergency vehicles like ambulances and fire trucks.  
 
-📄 [View Report](automated-traffic-signal/AutomatedTrafficSignal.pdf)
+📄 [View Report](automated-traffic-signal/Smart Traffic Signal Automated in Emergency Situations.docs)
 🔗 [Project Details](automated-traffic-signal/README.md)
 
 ---
