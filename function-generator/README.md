@@ -42,6 +42,5 @@ Output
 ### 🔹 Applications
 - Signal source for testing electronic circuits.  
 - Educational tool for studying waveforms.  
-- Useful in labs where a simple, low-cost function generator is required.  
-
-📄 [View Report](function-generator/FunctionGenerator_Report.pdf)
+- Useful in labs where a simple, low-cost function generator is required.
+- 
