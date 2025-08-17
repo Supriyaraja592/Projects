@@ -65,10 +65,13 @@ The solution integrates:
 - Cloud-based analytics for traffic optimization  
 
 ---
+
+
 ## 📝Report
 This detailed report consists of all the codes, output of the project.
 [AutomatedTrafficSignal_Report.pdf](https://github.com/user-attachments/files/21821699/AutomatedTrafficSignal_Report.pdf)
 
+---
 ## 👩‍💻 Author
 **Supriya R**  
 [GitHub](https://github.com/supriyaraja592) | [LinkedIn](https://linkedin.com/in/supriya-r)
