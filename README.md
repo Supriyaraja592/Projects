@@ -8,7 +8,7 @@ Currently, it includes the following:
 ## 🚦 Automated Traffic Signal Controlled in Emergency Situation
 - Smart traffic signal system using **Arduino, Python, and Android apps**.  
 - Prioritizes emergency vehicles like ambulances and fire trucks.  
-📄 [View Report](automated-traffic-signal/AutomatedTrafficSignal_Report.pdf)  
+📄 [View Report](automated-traffic-signal/DOC-20250423-WA0001..pdf)  
 🔗 [Project Details](automated-traffic-signal/README.md)
 
 ---
