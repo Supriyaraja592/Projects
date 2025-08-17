@@ -1,5 +1,3 @@
-## Following is the arduino code
-
 #define GREEN_PIN 2
 #define YELLOW_PIN 3
 #define RED_PIN 4
@@ -84,12 +82,3 @@ void blinkWhiteLED(unsigned long duration) {
     delay(250);
   }
 }
---
-## Code Overview:
-The Arduino is programmed to:
-        •	Cycle through traffic lights in a loop: Green (20s) → Yellow (20s) → Red (20s)
-        •	Monitor serial input for the value '1'
-        •	If '1' is received and the red signal is active:
-                o	Blink a white LED for 5 seconds
-                o	Then turn off the red and turn on green
-        •	Return to normal cycle after emergency
