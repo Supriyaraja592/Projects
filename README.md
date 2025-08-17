@@ -1,40 +1,33 @@
-# 🚦 Automated Traffic Signal Controlled in Emergency Situation
+# 📂 My Projects Repository
 
-## 📌 Introduction
-Traffic congestion and emergency response delays are critical challenges in modern cities.  
-This project provides a **smart traffic control system** that prioritizes emergency vehicles like ambulances, fire trucks, and police cars by automatically overriding normal traffic signals.  
-
-The solution integrates:
-- **Arduino Uno** for traffic light control  
-- **Android Apps (Kodular)** for transmitter and receiver  
-- **Python Server** as a central controller  
-
-📄 [View Full Project Report](AutomatedTrafficSignal_Report.pdf)
+This repository contains my academic and personal projects.  
+Currently, it includes the following:
 
 ---
 
-## 🛠️ System Overview
-1. **Transmitter App (Ambulance Phone)**  
-   - Sends an emergency signal when driver presses the button.  
-   - Signal is transmitted via Bluetooth.  
-
-2. **Receiver App (Traffic Signal Post)**  
-   - Continuously listens for incoming signals.  
-   - Measures RSSI to check if the ambulance is nearby.  
-   - Sends command to Python server if valid.  
-
-3. **Python Server (Laptop/PC)**  
-   - Receives emergency data from Receiver App.  
-   - Sends command `"1"` to Arduino over USB Serial.  
-
-4. **Arduino Controller**  
-   - Normally cycles traffic lights (Green → Yellow → Red).  
-   - On emergency signal:  
-     - Blinks white LED for 5s.  
-     - Switches to green on ambulance side.  
-     - Returns to normal cycle after emergency.  
+## 🚦 Automated Traffic Signal Controlled in Emergency Situation
+- Smart traffic signal system using **Arduino, Python, and Android apps**.  
+- Prioritizes emergency vehicles like ambulances and fire trucks.  
+📄 [View Report](automated-traffic-signal/AutomatedTrafficSignal_Report.pdf)  
+🔗 [Project Details](automated-traffic-signal/README.md)
 
 ---
 
-## 📂 Project Structure
+## 📸 Photo Alarm
+- A system that **triggers an alarm using image/photo detection**.  
+- Built with **image processing + embedded control**.  
+📄 [View Report](photo-alarm/PhotoAlarm_Report.pdf)  
+🔗 [Project Details](photo-alarm/README.md)
+
+---
+
+## 🎛️ Function Generator
+- Design and implementation of a **Function Generator** circuit.  
+- Generates different waveforms such as **sine, square, and triangular waves**.  
+- Useful for **testing and signal simulation** in electronic labs.  
+📄 [View Report](function-generator/FunctionGenerator_Report.pdf)  
+🔗 [Project Details](function-generator/README.md)
+
+---
+
 
