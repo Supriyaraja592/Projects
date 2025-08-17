@@ -1,0 +1,32 @@
+import serial
+from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
+
+# Setup serial connection to Arduino (adjust the port as needed)
+arduino = serial.Serial('COM3', 9600)  # Windows users: COMx, Linux: /dev/ttyUSB0
+
+# Define the HTTP request handler
+class EmergencyHandler(BaseHTTPRequestHandler):
+   def do_GET(self):
+    print("Received request: " + self.path)  # <-- This will print every request path
+    if self.path == '/emergency':
+        print("Emergency request received. Sending '1' to Arduino...")
+        arduino.write(b'1')
+        self.send_response(200)
+        self.send_header('Content-type', 'text/plain')
+        self.end_headers()
+        self.wfile.write(b'Emergency Signal Sent')
+    else:
+        self.send_response(404)
+        self.end_headers()
+
+
+# Define and start the HTTP server
+def run():
+    # IP is 0.0.0.0 (accepts all connections on the local network), port is 8080
+    httpd = HTTPServer(('0.0.0.0', 8080), EmergencyHandler)
+    print("Server started on port 8080...")
+    httpd.serve_forever()
+
+# Start the server
+if __name__ == '__main__':
+     run()
