@@ -13,19 +13,17 @@ This repository contains my academic and personal projects.
 ---
 
 ## 📸 Photo Alarm
-- A system that **triggers an alarm using image/photo detection**.  
-- Built with **image processing + embedded control**.  
+- A simple LDR-based circuit that triggers a buzzer in the presence of light.  
+- Demonstrates light-controlled switching without using a microcontroller.
 
-📄 [View Report](photo-alarm/PhotoAlarm_Report.pdf)  
 🔗 [Project Details](photo-alarm/README.md)
 
 ---
 
 ## 🎛️ Function Generator
-- Design and implementation of a **Function Generator** circuit.  
-- Generates **sine, square, and triangular waves**.  
+- An LM324-based circuit that generates sine, square, and triangular waveforms.  
+- Designed as a low-cost signal source for testing and educational use.
 
-📄 [View Report](function-generator/FunctionGenerator_Report.pdf)  
 🔗 [Project Details](function-generator/README.md)
 
 ---
