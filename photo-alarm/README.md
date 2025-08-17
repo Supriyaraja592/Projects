@@ -13,6 +13,7 @@ This project demonstrates how a light-dependent resistor (LDR) can be used to tr
 
 ### Simulated results
 <img width="599" height="240" alt="image" src="https://github.com/user-attachments/assets/28ebd580-873d-40fd-b4eb-2b6cc70a1403" />
+
 With Increase with light intensity, noise intensity increased while simulated in tincketcad.
 
 ### 🔹 Components Used
