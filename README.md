@@ -18,7 +18,7 @@ This repository contains my academic and personal projects.
 - Encodes binary data into two distinct carrier frequencies (~4 kHz and ~6 kHz) for reliable transmission.
 - Provides high noise immunity and real-time data recovery for low-speed digital applications.
 
-🔗 [Project Details](./BFSK%20Modulation%20and%20demodulation%20kit/README.md)
+🔗 [Project Details](./BFSK Modulation and demodulation kit/README.md)
 
 ---
 
