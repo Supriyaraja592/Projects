@@ -45,7 +45,7 @@ The design utilizes specific modifications, including an increased substrate hei
 ---
 
 ## 📝 Report
-[cite_start]This detailed report consists of the design equations, simulation parameters, and hardware results[cite: 395, 434, 625].
+This detailed report consists of the design equations, simulation parameters, and hardware resu
 [Download Project Report](./Report/Report.pdf)
 ---
 
