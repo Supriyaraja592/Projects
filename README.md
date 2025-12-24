@@ -9,7 +9,7 @@ This repository contains my academic and personal projects.
 - Optimized using an increased substrate height and a copper reflector to achieve a peak gain of **2.81 dBi**.
 - Features high directivity and excellent impedance matching for stable wireless communication.
 
-🔗 [Project Details](./Patch-Antenna-2.4GHz/README.md)
+🔗 [Project Details](./Patch-Antenna-2.4GHz/Readme.md.md)
 
 ---
 
