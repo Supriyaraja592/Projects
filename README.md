@@ -8,6 +8,7 @@ This repository contains my academic and personal projects.
 - A microstrip patch antenna designed for the **2.4 GHz ISM band**.
 - Optimized using an increased substrate height and a copper reflector to achieve a peak gain of **2.81 dBi**.
 - Features high directivity and excellent impedance matching for stable wireless communication.
+  
 🔗 [Project Details](./Patch-Antenna-2.4GHz/README.md)
 ---
 
