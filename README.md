@@ -9,8 +9,7 @@ This repository contains my academic and personal projects.
 - Optimized using an increased substrate height and a copper reflector to achieve a peak gain of **2.81 dBi**.
 - Features high directivity and excellent impedance matching for stable wireless communication.
 
-🔗 [Project Details](./Patch-Antenna-2.4GHz/Readme.md.md)
-
+🔗 [Project Details](./BFSK%20Modulation%20and%20demodulation%20kit/README.md)
 ---
 
 ## 📟 BFSK Modulation and Demodulation Kit
@@ -18,9 +17,7 @@ This repository contains my academic and personal projects.
 - Encodes binary data into two distinct carrier frequencies (~4 kHz and ~6 kHz) for reliable transmission.
 - Provides high noise immunity and real-time data recovery for low-speed digital applications.
 
-🔗 [Project Details](./BFSK Modulation and demodulation kit/README.md)
-
----
+🔗 [Project Details](./BFSK%20Modulation%20and%20demodulation%20kit/README.md)
 
 ## 🚦 Automated Traffic Signal Controlled in Emergency Situation
 - Smart traffic signal system using **Arduino, Python, and Android apps**.
