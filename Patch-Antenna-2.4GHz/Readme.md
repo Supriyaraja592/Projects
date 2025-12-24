@@ -20,6 +20,10 @@ The design utilizes specific modifications, including an increased substrate hei
    * Integrated a **Copper Reflector** to minimize back radiation and enhance forward gain.
 
 ---
+## 📷 Fabricated Antenna
+[cite_start]Below is the image of the final fabricated microstrip patch antenna featuring the increased substrate height and copper reflector for enhanced performance[cite: 745, 902].
+
+![Fabricated Antenna](./Fabricated%20Antenna%20Images/fab%20image%202.png)
 
 ## 📊 Key Performance Metrics
 | Parameter | Simulated/Measured Value |
@@ -41,9 +45,8 @@ The design utilizes specific modifications, including an increased substrate hei
 ---
 
 ## 📝 Report
-The detailed report includes all design equations, CST simulation parameters, and comparisons between simulated and fabricated results.
-[PatchAntenna_Report.pdf](https://github.com/supriyaraja592/Projects/blob/main/Patch-Antenna-2.4GHz/14_Patch%20Antenna%20for%20Wifi%26Bluetooth_REPORT3_.pdf)
-
+[cite_start]This detailed report consists of the design equations, simulation parameters, and hardware results[cite: 395, 434, 625].
+[Download Project Report](./Report/Report.pdf)
 ---
 
 ## 👩‍💻 Author
