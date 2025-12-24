@@ -46,16 +46,28 @@ The project is divided into two main functional sections:
 ---
 
 ## 📝 Report
-The full project documentation, including detailed circuit diagrams and component analysis, is available below:
+The complete project documentation, including circuit diagrams, working principle, and component descriptions, is available here:
 [Download Project Report](./Report/DC_REPORT_1.pdf)
 
----
+## 📷 Hardware and Outputs
+The following images showcase the hardware implementation and the resulting waveforms captured during the modulation and demodulation process.
 
-## 📷 Hardware & Outputs
-Below is the BFSK hardware kit and the resulting signal outputs from the oscilloscope.
+### Project Hardware
+The physical BFSK Modulation and Demodulation kit implementation.
+![BFSK Project Kit](./Hardware%20Images%20and%20outputs/kit%20image.png)
 
-### Project Kit
-![BFSK Kit](./Images/Kit_Image.png)
+### Waveform Analysis
+Real-time signals captured from the Digital Storage Oscilloscope (DSO):
 
-### BFSK Modulated Waveform
-![Modulated Signal](./Images/BFSK_Modulated.png)
+* **Input Message Signal**: The digital binary data (square wave) to be modulated.
+![Input Waveform](./Hardware%20Images%20and%20outputs/input%20wave%20form.png)
+
+* **Carrier Signals**: Two clean sine waves representing binary '1' and '0'.
+![Carrier Signals](./Hardware%20Images%20and%20outputs/carrier.png)
+
+* **BFSK Modulated Waveform**: The output signal switching between two frequencies.
+![Modulated Waveform](./Hardware%20Images%20and%20outputs/Modulated%20waveform.png)
+
+
+* **Demodulated Output**: The recovered digital signal after passing through the PLL and comparator.
+![Demodulated Waveform](./Hardware%20Images%20and%20outputs/Demodulated%20waveform.png)
