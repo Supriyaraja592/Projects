@@ -26,9 +26,9 @@ The design utilizes specific modifications, including an increased substrate hei
 | :--- | :--- |
 | **Resonant Frequency** |2.4 GHz|
 | **Return Loss ($S_{11}$)** | Better than -25 dB |
-| **VSWR** | 1.125 (Simulated) / 1.16 (Measured) |
-| **Peak Gain** | 2.811 dBi  |
-| **Main Lobe Direction** | 0.0 deg (Broadside) |
+| **VSWR** | 1.125 (Simulated) |
+| **Peak Gain** | 4.277 dBi  |
+| **Directivity** | 6.878 dBi  |
 
 ---
 
