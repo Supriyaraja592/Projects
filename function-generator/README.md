@@ -43,4 +43,3 @@ Output
 - Signal source for testing electronic circuits.  
 - Educational tool for studying waveforms.  
 - Useful in labs where a simple, low-cost function generator is required.
-- 
